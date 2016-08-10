@@ -34,12 +34,12 @@ class ViewController: UIViewController {
                 
                 //Mode switching between of Battery Saver and Normal
                 //Or using the UIScreen.mainScreen().brightness
-                if !(myDevice.orientation == UIDeviceOrientation.Portrait) && !(self.saverMode) {
+                if (myDevice.orientation == UIDeviceOrientation.PortraitUpsideDown) && !(self.saverMode) {
                     self.view.addSubview(self.coverImageView)
                     self.saverMode = true
                     
                     print("Saver mode")
-                } else if (myDevice.orientation == UIDeviceOrientation.Portrait) && (self.saverMode) {
+                } else if !(myDevice.orientation == UIDeviceOrientation.PortraitUpsideDown) && (self.saverMode) {
                     self.coverImageView.removeFromSuperview()
                     self.saverMode = false
                     
