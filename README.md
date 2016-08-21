@@ -1,2 +1,2 @@
-# Battery-Saver-on-Pockemon-GO
-An Implementation for Battery Saver on Pokemon GO APP
+# Battery-Saver-on-Pockemon-Go
+An Implementation for Battery Saver on Pokemon Go APP
