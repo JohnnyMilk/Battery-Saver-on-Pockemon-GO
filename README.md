@@ -1,7 +1,7 @@
 # Battery-Saver-on-Pockemon-Go
 An Implementation for Battery Saver on Pokemon Go APP
 
-[Related website][Reference]
+[Related Website][Reference]
 
 ![image][DEMO]
 
